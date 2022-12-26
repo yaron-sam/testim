@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "puppeteer": "^19.4.1"
+  },
+  "name": "testim",
+  "version": "1.0.0",
+  "main": "mochaTest.js",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}
