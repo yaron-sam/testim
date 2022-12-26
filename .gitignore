@@ -1,0 +1,8 @@
+node_modules/
+mochawesome-report/
+
+# VSCode
+.vscode/
+
+# dotenv environment variable files
+.env
