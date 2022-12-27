@@ -2,7 +2,7 @@ import { equal } from 'assert'
 import puppeteer from 'puppeteer';
 
 
-describe('Google calculator', function () {
+describe('Automation home Assignment - Google calculator', function () {
   this.timeout(5000);
   let browser;
   let page;
