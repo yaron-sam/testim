@@ -4,7 +4,8 @@
   "main": "test.js",
   "scripts": {
     "test": "mocha",
-    "testReport": "npm run test -- --reporter mochawesome"
+    "testReport": "npm run test -- --reporter mochawesome",
+    "clear" : "rm -r mochawesome-report/"
 
   },
   "author": "Yaron Samuel",
