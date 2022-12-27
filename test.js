@@ -11,7 +11,10 @@ describe('Automation home Assignment - Google calculator', function () {
 
 
   before(async () => {
-    browser = await puppeteer.launch({ headless: false });
+    browser = await puppeteer.launch({
+      executablePath: '/usr/bin/google-chrome',
+      args: ['--no-sandbox']
+      });
     page = await browser.newPage();
   });
 

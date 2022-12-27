@@ -5,7 +5,7 @@ Automate UI test using Puppeteer and Mocha
 - **Mocha:** Mocha is a JavaScript test framework for Node.js programs, featuring browser support, asynchronous testing, test coverage reports, and use of any assertion library.
 - **Mochawesome:** Generate mocha test report
    
-## Steps to run the code
+## Run the code localy
 
 ``` 
     npm install
@@ -13,4 +13,11 @@ Automate UI test using Puppeteer and Mocha
 ```
 
 For create uesful test report run the command `npm run testReport`. The report can be found on `./mochawesome-report/mochawesome.html`.
+
+## Run the code on Docker container
+
+```
+     docker build -t testim_docker .
+     docker run testim_docker
+```
 
